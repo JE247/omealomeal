@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class MakeConnection {
 	private static MakeConnection mc;
 	private final String DRIVER = "com.mysql.cj.jdbc.Driver";
-	private final String URL = "jdbc:mysql://orcl.c31cggbghetr.ap-northeast-2.rds.amazonaws.com:3306/mydb";
+	private final String URL = "jdbc:mysql://엔드포인트주소:3306/mydb";
 	private final String USER = "DB아이디";
 	private final String PASSWORD = "DB패스워드";
 	Connection conn = null;
